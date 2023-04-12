@@ -1,0 +1,76 @@
+{
+  "user": [
+    {
+      "id": "basem",
+      "name": "BasemAlazab",
+      "password": "01097835745",
+      "email": "basemelazab2014@gmail.com",
+      "phone": "01097835745",
+      "department": "finance",
+      "address": "cairo,elzahraa,nasr city",
+      "gender": "male",
+      "role": "admin"
+    },
+    {
+      "id": "sama",
+      "name": "sama",
+      "password": "123",
+      "email": "samaelazab2014@gmail.com",
+      "phone": "0482990903",
+      "department": "it",
+      "address": "cairo,elzahraa,nasr city",
+      "gender": "female",
+      "role": "user"
+    },
+    {
+      "id": "ayman",
+      "name": "AymanAlazab",
+      "password": "123",
+      "email": "aa@aa.cc",
+      "phone": "01097835745",
+      "department": "it",
+      "address": "",
+      "gender": "male"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "employee",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "employee",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ],
+  "employee": [
+    {
+      "id": 1,
+      "name": "Chris000",
+      "email": "chris@in.com",
+      "phone": "0482990903",
+      "department": "finance"
+    },
+    {
+      "id": 2,
+      "name": "Chrisxx",
+      "email": "chris@in.com",
+      "phone": "0482990903",
+      "department": "finance"
+    },
+    {
+      "name": "Ahmed",
+      "email": "Ahmed",
+      "phone": "Ahmed",
+      "department": "IT",
+      "active": true,
+      "id": 3
+    }
+  ]
+}
